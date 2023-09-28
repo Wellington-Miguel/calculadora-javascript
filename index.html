@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="tela">
+        <div class="titulo">
+            <img src="IMAGENS/CALC-LOGO-WM2.png" alt="logo-calculadora">
+        </div>
+        <div class="calculadora">
+            <div class="display">
+                <div class="historico" id="historico"></div>
+                <div class="resultado" id="resultado"></div>
+            </div>
+            <div class="teclas">
+                <table>
+                    <tr class="linhas">
+                        <td colspan="3"><button class="main-button">AC</button></td>
+                        <td colspan="1"><button class="main-button">Back</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="defalt-button">1</button></td>
+                        <td><button class="defalt-button">2</button></td>
+                        <td><button class="defalt-button">3</button></td>
+                        <td><button class="defalt-button">*</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="defalt-button">4</button></td>
+                        <td><button class="defalt-button">5</button></td>
+                        <td><button class="defalt-button">6</button></td>
+                        <td><button class="defalt-button">/</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="defalt-button">7</button></td>
+                        <td><button class="defalt-button">8</button></td>
+                        <td><button class="defalt-button">9</button></td>
+                        <td><button class="defalt-button">-</button></td>
+                    </tr>
+                    <tr class="linhas">
+                        <td><button class="operator-button">0</button></td>
+                        <td><button class="operator-button">.</button></td>
+                        <td><button class="operator-button">=</button></td>
+                        <td><button class="operator-button" id="button-soma">+</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

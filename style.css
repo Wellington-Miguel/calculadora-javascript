@@ -1,0 +1,126 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+.tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4EB1CB;
+    width: 100vw;
+    height: 100vh;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px grey;
+}
+.display{
+    background-color: aliceblue;
+    height: 20vh;
+    margin: 20px;
+    box-shadow: 2px 4px 5px gray;
+    border-radius: 10px;
+}
+.historico{
+    background-color: antiquewhite;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    text-align: right;
+    padding: 0px 10px;
+    font-size: x-large;
+
+    flex-direction: column-reverse; 
+
+}
+.teclas{
+    background-color: black;
+    height: 70%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.linhas{
+    border: 2px solid black;
+    width: 100%;
+    align-items: center;
+}
+table{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+   
+    
+}
+td {
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+   ;
+  }
+.defalt-button{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: gray;
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    
+}
+.defalt-button:hover{
+
+    cursor: pointer;
+}
+.operator-button{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: orange;
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+}
+.operator-button:hover{
+    cursor: pointer;
+}
+.main-button{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: green;
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+
+}
+.main-button{
+    cursor: pointer;
+}
+.resultado{
+    display: flex;
+    text-align: right;
+    padding: 0px 10px;
+    font-size: x-large;
+    height: 30%;
+    flex-direction: column-reverse; 
+}
