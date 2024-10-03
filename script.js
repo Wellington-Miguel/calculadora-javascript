@@ -29,7 +29,7 @@ class Calculator {
   }
 
   performOperation(operator) {
-    this.posOperation += this.currentOperation + " " + operator+" ";
+    this.posOperation += "   "+this.currentOperation + " " + operator+" ";
     this.firstNumber = Number(this.currentOperation);
     console.log(this.firstNumber);
     this.currentOperation = '';
